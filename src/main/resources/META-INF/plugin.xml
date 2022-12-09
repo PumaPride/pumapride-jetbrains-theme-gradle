@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>com.pumapride.pumapride-theme</id>
+    <name>PumaPride Theme</name>
+    <vendor email="mr.orgullodepuma@gmail.com" url="https://github.com/PumaPride">PumaPride</vendor>
+
+    <description><![CDATA[
+    PumaPride Theme.
+
+    The legendary theme.
+
+    Legends never die.
+
+    ]]></description>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="e868c96b-6a69-4abf-9024-82d2c112e63a" path="/pumapride_dark.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
